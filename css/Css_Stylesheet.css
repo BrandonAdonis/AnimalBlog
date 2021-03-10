@@ -1,7 +1,16 @@
 @charset "utf-8";
 
+/* This is the style for paragraphs */
+
 
 .body-text{
 	color: black;
 	font-size: 19px;
 }
+/* This is the style for smooth scrolling */
+
+
+html {
+  scroll-behavior: smooth;
+}
+
