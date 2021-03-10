@@ -2,7 +2,9 @@
 <html>
 <head>
 
-<!--This Script is from w3schools smooth scrolling--> 
+<!--This Script is from w3schools for smooth scrolling--> 
+	
+	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
 <script>
 $(document).ready(function(){
@@ -30,6 +32,37 @@ $(document).ready(function(){
   });
 });
 </script>
+
+	
+	
+	<!-- This is my script for my Back to top button to function -->
+	
+	
+	
+	
+	<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	
+	
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,6 +74,8 @@ $(document).ready(function(){
 </head>
 
 <body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	
 <div id="mainwrapper">
   <header> 
     <!--**************************************************************************
@@ -89,7 +124,11 @@ $(document).ready(function(){
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
       <br>
+			
 		
+		
+		
+
 		
 		
 		
@@ -237,7 +276,7 @@ $(document).ready(function(){
   <a href="#Spur">The Spur-Winged Goose</a>
 </div>
             							<div class="main" id="Frigate1">
-  <a href="#Frigate">The Spur-Winged Goose</a>
+  <a href="#Frigate">The Frigate Bird</a>
 </div>
         
             							<div class="main" id="White1">
