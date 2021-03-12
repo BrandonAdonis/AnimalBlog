@@ -44,6 +44,14 @@ html {
 }
 
 
-#Tiger{
-	height: 20px;
+/* This is my style for the Side nav bar*/
+
+.SideNav{ 
+	color: red;
+background-color: orange;
 }
+
+/* This is the section of code for the "nav bar"/ "header" style */
+
+
+
