@@ -18,10 +18,13 @@ html {
 
 /* This section of code is to change the size/font/ colour of the links in the side nav */
 
-
+sidebar{
+	background-color: green;
 	
 	
-
+	
+}
+	
 
 /* This section of code is for the Back to Top button that will show up */
 
@@ -63,67 +66,13 @@ html {
 /* This is my style for the Side nav bar*/
 
 .SideNav{ 
-
 background-color: #B2BEC0;
+	opacity: 0.6;
 }
 
+section{
+	background-color: white;
 
-/* This is the style for the login and sign up button*/
-
- 
-.button{
-	float:left;
-}
-
-
-
-.button1{
-width: 100px;
-margin: 15px auto;
-position:relative;  
-box-shadow: 0 0 20px 9px #FFFFFF;
-border-radius: 30px;
-background: transparent;
-	  	  transition: 0.7s;
- 
-
-}
-
-.button2{
-width: 100px;
-margin: 15px auto;
-position:relative;  
-box-shadow: 0 0 20px 9px #FFFFFF;
-border-radius: 30px;
-background: transparent;
-	transition: 0.7s;
-}
-
-
-
-.button1 {
-  background-color: #AF0205; 
-  color: black; 
-  border: 2px solid #282BB1;
-}
-
-.button1:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
-
-
-
-.button2 {
-  background-color: #AF0205; 
-  color: black; 
-  border: 2px solid #282BB1;
-}
-
-.button2:hover {
-  background-color: #4CAF50;
-  color: white;
 }
 
 /* This is part of the style is to make the back to top button have a colour transition */ 
@@ -160,21 +109,13 @@ background: transparent;
 
 /* Search bar animation */
 
-input[type=text] {
-  width: 130px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-  background-image: url('searchicon.png');
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-}
 
-input[type=text]:focus {
-  width: 100%;
+
+/* BackGround Colour */
+
+Body{
+
+  background-color: lightgreen;
+
 }
+	
