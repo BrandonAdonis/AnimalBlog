@@ -71,8 +71,12 @@ background-color: #B2BEC0;
 }
 
 section{
-	background-color: white;
+	background-color: turquoise;
+}
 
+
+.siderbar{
+	background-color: red;
 }
 
 /* This is part of the style is to make the back to top button have a colour transition */ 
