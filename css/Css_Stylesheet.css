@@ -16,15 +16,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* This section of code is to change the size/font/ colour of the links in the side nav */
 
-sidebar{
-	background-color: green;
-	
-	
-	
-}
-	
 
 /* This section of code is for the Back to Top button that will show up */
 
@@ -111,9 +103,6 @@ section{
   100% { color: red; }
 }
 
-/* Search bar animation */
-
-
 
 /* BackGround Colour */
 
@@ -122,4 +111,23 @@ Body{
   background-color: lightgreen;
 
 }
+
+
+navbarDropdown1:hover{
 	
+	background-color: red
+}	
+
+
+BrownHareIMG {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+BrownHareIMG:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
