@@ -6,8 +6,8 @@
 
 
 .body-text{
-	color: black;
-	font-size: 19px;
+color: black;
+font-size: 19px;
 }
 /* This is the style for smooth scrolling */
 
@@ -23,7 +23,6 @@ html {
 
 
 #myBtn1 {
-	
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -31,12 +30,12 @@ html {
   font-size: 18px;
 
   text-align: center;
-	padding: 15px;
-	 cursor: pointer;
+padding: 15px;
+cursor: pointer;
  
 
   background-color: white;
-  	  transition: 0.7s;
+   transition: 0.7s;
  
 }
 
@@ -52,30 +51,11 @@ html {
 
 
 
-
-
-
-/* This is my style for the Side nav bar*/
-
-.SideNav{ 
-background-color: #B2BEC0;
-	opacity: 0.6;
-}
-
-section{
-	background-color: turquoise;
-}
-
-
-.siderbar{
-	background-color: red;
-}
-
-/* This is part of the style is to make the back to top button have a colour transition */ 
+/* This is part of the style is to make the back to top button have a colour transition */
 
 
 .myBtn1 {
-	float: right;
+float: right;
   background-color: #ddd;
   border: none;
   color: black;
@@ -108,25 +88,34 @@ section{
 
 Body{
 
-  background-color: lightgreen;
+  background-color: #143D59;
 
 }
 
+/* This is my style for the Side nav bar*/
+
+.SideNav{
+background-color: #f4b41a;
+opacity: 0.6;
+}
+
+section{
+background-color: #f4b41a;
+}
 
 navbarDropdown1:hover{
-	
-	background-color: red
-}	
+background-color: red
+}
 
+/* Images */
 
 BrownHareIMG {
   width: 100px;
   height: 100px;
-  background: red;
   transition: width 2s, height 2s, transform 2s;
 }
 
-BrownHareIMG:hover {
+BlueWildebeestIMG:hover {
   width: 300px;
   height: 300px;
   transform: rotate(180deg);
