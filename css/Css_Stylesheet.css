@@ -1,9 +1,6 @@
 @charset "utf-8";
 
-
-
 /* This is the style for paragraphs */
-
 
 .body-text{
 color: black;
@@ -107,16 +104,6 @@ navbarDropdown1:hover{
 background-color: red
 }
 
+
 /* Images */
 
-BrownHareIMG {
-  width: 100px;
-  height: 100px;
-  transition: width 2s, height 2s, transform 2s;
-}
-
-BlueWildebeestIMG:hover {
-  width: 300px;
-  height: 300px;
-  transform: rotate(180deg);
-}
